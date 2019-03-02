@@ -1,0 +1,496 @@
+<!--
+  Copyright (c) 2016, Eric Zhao and Youth Competitive Programming Circle, All Rights Reserved. 
+  THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
+  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+  PARTICULAR PURPOSE.
+  -->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>About Us - Youth Competitive Programming Circle</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/standardPageTheme" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<link rel="apple-touch-icon-precomposed" href="img/squarelogo.png">
+    <link rel="icon" href="img/squarelogo.png">
+</head>
+
+<body id="page-top" class="index">
+
+      <?php include "includecode/navbarStandard.html" ?>
+
+</div>
+    <style>
+
+    @font-face {
+    font-family: monoglyceride;
+    src: url(../fonts/monoglyceride-webfont.eot);
+    src: url(../fonts/monoglyceride-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/monoglyceride-webfont.woff) format('woff'), url(../fonts/monoglyceride-webfont.ttf) format('truetype'), url(../fonts/monoglyceride-webfont.svg#svgFontName) format('svg')
+}
+@font-face {
+    font-family: hero;
+    src: url(../fonts/herolight-webfont.eot);
+    src: url(../fonts/herolight-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/herolight-webfont.woff) format('woff'), url(../fonts/herolight-webfont.ttf) format('truetype'), url(../fonts/herolight-webfont.svg#svgFontName) format('svg')
+}
+@font-face {
+    font-family: sansthin;
+    src: url(../fonts/lh-line1-sans-thin-webfont-webfont.eot);
+    src: url(../fonts/lh-line1-sans-thin-webfont-webfont.eot?#iefix) format('embedded-opentype'), url(../fonts/lh-line1-sans-thin-webfont-webfont.woff) format('woff'), url(../fonts/lh-line1-sans-thin-webfont-webfont.ttf) format('truetype'), url(../fonts/lh-line1-sans-thin-webfont-webfont.svg#svgFontName) format('svg')
+}
+@media (max-width:767px){
+.p1{
+  text-align:center !important;
+}
+.h2title{
+    text-align:center !important;
+}}
+    </style>
+    <style>
+.footer {
+    padding: 25px 0;
+    text-align: center;
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color:black;
+    margin-top:10px;
+    width:100%;
+    background-color:white;
+    z-index:4 !important;
+}
+
+.footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+.footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #222;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #0099CC;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+.process-row {
+    display: table-row;
+}
+
+.process {
+    display: table;     
+    width: 100%;
+    position: relative;
+}
+
+.process-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.process-row:before {
+    top: 50px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+    
+}
+
+.process-step {    
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.process-step p {
+    margin-top:10px;
+    
+}
+
+.btn-circle {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+
+
+</style>
+
+
+<div class="bs-docs-header" id="content">
+  <div class="container">
+    <h1 style = "font-family: monoglyceride; font-size:300%; font-weight:500; text-transform:capitalize;">Minecraft Coding Camp</h1>
+    <p style = "color:white ;   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:24px;">An interactive look into programming through Minecraft</p>
+<br>
+
+  </div>
+</div>
+     <!-- Services Section -->
+    <section id="services" style = "padding-top:15px !important; padding:3%; background: url('http://imagizer.imageshack.us/v2/1920x1080q90/16/floatingu.png'); background-position: 50% 90%; ">
+                    <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Curriculum</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        <div class = "row">
+          <div class="container">
+            <div class="process">
+                <div class="process-row">
+                    <div class="process-step">
+                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-user fa-3x"></i></button>
+                        <p>The Basics</p>
+                    </div>
+                    <div class="process-step">
+                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-comments-o fa-3x"></i></button>
+                        <p>Display and Clear Text</p>
+                    </div>
+                    <div class="process-step">
+                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-comments-o fa-3x"></i></button>
+                        <p>Variables</p>
+                    </div>
+                    <div class="process-step">
+                        <button type="button" class="btn btn-default btn-circle" disabled="disabled"><i class="fa fa-thumbs-up fa-3x"></i></button>
+                        <p>If Statements</p>
+                    </div> 
+                     <div class="process-step">
+                        <button type="button" class="btn btn-success btn-circle" disabled="disabled"><i class="fa fa-eur fa-3x"></i></button>
+                        <p>Loop Statements</p>
+                    </div> 
+                </div>
+            </div>
+        </div>
+                
+        </div>
+    </div>
+    <br><br><p style = "text-align:center;"><a class="btn btn-primary wow fadeInUp"  data-wow-offset="100" data-wow-duration="1s"href="https://www.ycpc.us/mcc.pdf" style = "text-align:center; color:white;">Link to MCC Documentation</a></p>
+</section>
+
+<section style="background: url('http://i.imgur.com/R8zfl5R.jpg');">
+<div class="row">
+  <div class="col-lg-12 text-center">
+    <h2 class="section-heading" style="color: #f5f5f5">Projects</h2>
+  </div>
+</div>
+    <div class="container">
+<div class="col-xs-12">
+    <div class="carousel slide" id="myCarousel">
+        <div class="carousel-inner">
+            <div class="item active">
+                    <ul class="thumbnails">
+                        <li class="col-sm-3">
+                <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="../img/mcc1.png" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                    <a><img src="../img/mcc2.png" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                   <a><img src="../img/mcc3.png" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="../img/mcc4.png" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                    </ul>
+              </div><!-- /Slide1 --> 
+            <div class="item">
+                    <ul class="thumbnails">
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                    </ul>
+              </div><!-- /Slide2 --> 
+            <div class="item">
+                    <ul class="thumbnails">
+                        <li class="col-sm-3"> 
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">Read More</a>
+                </div>
+                            </div>
+                        </li>
+                        <li class="col-sm-3">
+              <div class="fff">
+                <div class="thumbnail">
+                  <a><img src="http://placehold.it/360x240" alt=""></a>
+                </div>
+                <div class="caption" style="background-color: #ffffff; padding: 5px 5px">
+                  <h9>Lorem ipsum</h9>
+                  <p>Lorem ipsum dolor sit amet</p>
+                  <a href="#">» Read More</a>
+                </div>
+                            </div>
+                        </li>
+                    </ul>
+              </div><!-- /Slide3 --> 
+        </div>
+        
+       
+     <nav>
+      <ul class="control-box pager">
+        <li><a data-slide="prev" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-left"></i></a></li>
+        <li><a data-slide="next" href="#myCarousel" class=""><i class="glyphicon glyphicon-chevron-right"></i></li>
+      </ul>
+    </nav>
+     <!-- /.control-box -->   
+                              
+    </div><!-- /#myCarousel -->
+        
+</div><!-- /.col-xs-12 -->          
+
+</div><!-- /.container -->
+</section>
+
+<footer>
+<br>
+<div class="row" style="padding-left:5%; width:100% !important;">
+<div class="col-sm-1"></div>
+<div class="col-sm-6">
+<h2 class="h2title" style="font-weight:500; text-transform: capitalize;   font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;">Links</h2>
+<div class="row">
+<div class="col-sm-4">
+<p class="p1"><a href="https://www.ycpc.us/resources" target="_blank" style="color:black; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;">Resources</a>
+<br></p><ul style="list-style-type: none;" class="p2">
+<li class="p1"><a style="font-size:14px; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;" class="p2" href="https://www.ycpc.us/archive/organizationbylaws.pdf" target="_blank">Organization Bylaws</a></li>
+<li class="p1"><a style="font-size:14px; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;" class="p2" href="https://www.ycpc.us/archive/terms.pdf" target="_blank">Website Terms of Use</a></li>
+<li class="p1"><a style="font-size:14px; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;" class="p2" href="https://www.ycpc.us/documentation" target="_blank">Chapter Documentation</a></li> </ul> <p></p>
+</div>
+<div class="col-sm-4">
+<p class="p1"><a href="https://www.ycpc.us/" target="_blank" style="color:black; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;">Programs</a>
+<br></p><ul style="list-style-type: none;" class="p2">
+<li class="p1"><a style="font-size:14px; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;" class="p2" href="https://www.ycpc.us/courses" target="_blank">Courses</a></li>
+<li class="p1"><a style="font-size:14px; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;" class="p2" href="https://www.ycpc.us/mcc.pdf" target="_blank">Minecraft Coding Camp</a></li>
+<li class="p1"><a style="font-size:14px; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;" class="p2" href="https://www.ycpc.us/msbridge.pdf" target="_blank">Bridge Program</a></li>
+</ul> <p></p>
+</div>
+<div class="col-sm-4">
+</div>
+</div>
+</div>
+<div class="col-sm-5" style="padding-left:5%;">
+<h2 class="h2title" style="font-weight:500; text-transform: capitalize; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif!important;">Contact Information</h2>
+<div id="DIV_23">
+<p class="p1" style="font-weight:500;">
+press@ycpc.us<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script><br>staff@ycpc.us<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></p>
+<br>
+<p class="p1" style="font-weight:500;"> <br>
+Brower Court, San Ramon 94582 CA</p>
+</div>
+</div>
+</div><span id="SPAN_52"><a href="https://www.facebook.com/pages/Youth-Competitive-Programming-Circle/1458389094420402" id="A_53"><span id="SPAN_56"></span></a><a data-target="#contactModal" data-toggle="modal" href="" id="A_57"><span id="SPAN_58"></span></a><a href="https://plus.google.com/116677355089032611759/posts" id="A_59"><span id="SPAN_62"></span></a></span>
+<div style="bottom:5%; padding-left:5%; padding-right:5%;">
+<p id="P_66" style="font-weight:500;">Youth Competitive Programming Circle | San Ramon 94582 CA | staff@ycpc.us<script cf-hash="f9e31" type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></p>
+<br>
+<p id="DIV_68" style="font-weight:500; padding-bottom: 5%;">Copyright @ 2014 Youth Competitive Programming Circle. All rights reserved.</p>
+</div>
+</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="../js/jquery/jquery-1.11.1.min.js"></script>
+<script src="../js/bootstrap.min.components.js"></script>
+<script src="../js/docs.min.js"></script>
+<script src="../js/jquery/jquery.nav.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+
+<script>
+  window.twttr = (function (d,s,id) {
+    var t, js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;
+    js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+    return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+  }(document, "script", "twitter-wjs"));
+</script>
+
+<script>
+  $('#top-nav').onePageNav({
+      currentClass: 'active',
+      changeHash: true,
+      scrollSpeed: 750,
+  });
+</script>
+
+
+

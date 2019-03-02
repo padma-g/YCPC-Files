@@ -1,0 +1,33 @@
+<!--
+  Copyright (c) 2016, Eric Zhao and Youth Competitive Programming Circle, All Rights Reserved. 
+  THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY 
+  KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+  IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+  PARTICULAR PURPOSE.
+  -->
+	<?php
+	
+	global $quizid;
+	$pageid = ($_GET['id']);
+
+
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+  	$_SESSION['pageid'] = $pageid;
+
+	?>
+
+	<ul class="pager" style = "margin-top:-5px; margin-bottom:10px">
+
+  	<li><a href="../includecode/navigateBack.php" id = "leftpager-toggle" class = "btn btn-lg"><span class="glyphicon glyphicon-chevron-left"></span> Previous</a></li>
+
+  	<li id = "leftpager-wrapper"><a class="btn btn-primary btn-lg" role="button">Going back to review?</a><li>
+
+  	<li><a  href = "" id = "coursesbreak" data-toggle="modal" data-target="#myModal" class = "btn btn-lg">Break Time?</a></li>
+
+  	<li><a href="../includecode/navigateForward.php" onclick="javascript:swapContent('con1');" id = "rightpager-toggle" class = "btn btn-lg">Next <span class="glyphicon glyphicon-chevron-right"></span></a></li>
+  	
+  	<li id = "rightpager-wrapper"><a class="btn btn-primary btn-lg" role="button">Click it....</a><li>
+
+</ul>
